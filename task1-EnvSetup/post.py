@@ -1,6 +1,6 @@
 from subprocess import call
 # test docker 
-call("yes | docker run --rm hello-world", shell=True) # it will auto run and delete container
+call("docker run --rm hello-world", shell=True) # it will auto run and delete container
 # clone MLOps Repo
 call("git clone https://github.com/DataTalksClub/mlops-zoomcamp.git", shell=True)
 # creating notebooks data dir
